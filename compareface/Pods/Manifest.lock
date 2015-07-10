@@ -1,0 +1,22 @@
+PODS:
+  - FaceppSDK (2.0.0)
+  - FlickerNumber (0.2.2)
+  - MAOFlipViewController (0.0.1)
+  - PEPhotoCropEditor (1.3.1)
+  - PulsingHalo (0.0.1)
+
+DEPENDENCIES:
+  - FaceppSDK (~> 2.0.0)
+  - FlickerNumber (~> 0.2.2)
+  - MAOFlipViewController (~> 0.0.1)
+  - PEPhotoCropEditor (~> 1.3.0)
+  - PulsingHalo (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  FaceppSDK: c83bcadb7bbc512a3bb792f3cda407e14e0208b1
+  FlickerNumber: 2617ec93c7e4b7c359ef10c681d95ba60474ebf4
+  MAOFlipViewController: cf4eaa68f3e638d3c77a1fe55d9c74c62d5b4bab
+  PEPhotoCropEditor: 613292fce009efd085e7aed975f1ebb3fec8bb7b
+  PulsingHalo: 1583823bd6c989fff3469bb417bc42f0d268f98e
+
+COCOAPODS: 0.37.2

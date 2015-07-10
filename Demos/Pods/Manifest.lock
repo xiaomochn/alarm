@@ -1,0 +1,10 @@
+PODS:
+  - MAOFlipViewController (0.0.1)
+
+DEPENDENCIES:
+  - MAOFlipViewController (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  MAOFlipViewController: cf4eaa68f3e638d3c77a1fe55d9c74c62d5b4bab
+
+COCOAPODS: 0.37.2

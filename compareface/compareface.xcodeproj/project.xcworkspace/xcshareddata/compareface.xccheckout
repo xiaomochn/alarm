@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62E82F38-849A-48A8-8E20-A3E9BA0381A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45214C400375DF02D4C716075D6DD73063FADEEB</key>
+		<string>https://github.com/xiaomochn/compare-face.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>compareface/compareface.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45214C400375DF02D4C716075D6DD73063FADEEB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xiaomochn/compare-face.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45214C400375DF02D4C716075D6DD73063FADEEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45214C400375DF02D4C716075D6DD73063FADEEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>compare-face</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+#include "Pods-PulsingHalo.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/PulsingHalo" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FaceppSDK" "${PODS_ROOT}/Headers/Public/FlickerNumber" "${PODS_ROOT}/Headers/Public/MAOFlipViewController" "${PODS_ROOT}/Headers/Public/PEPhotoCropEditor" "${PODS_ROOT}/Headers/Public/PulsingHalo"
+OTHER_LDFLAGS = ${PODS_PULSINGHALO_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

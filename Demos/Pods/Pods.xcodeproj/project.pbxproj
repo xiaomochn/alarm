@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D033020B642912D45455D1 /* Pods-MAOFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907183F2FEB8C96CEB1C8FF8 /* Pods-MAOFlipViewController-dummy.m */; };
+		385AEDE8C04AD39EB0465E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D851969DAF0ADF0578AB0F6 /* Foundation.framework */; };
+		3FF7C4305803F937BE2A4903 /* MAOFlipInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = B854FF78260D8F7B9581B1F8 /* MAOFlipInteraction.m */; };
+		4F9FF084772BAF5E7900739A /* MAOPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 360454E78CD2963A8CB33B4C /* MAOPanGestureRecognizer.h */; };
+		6DF2B3F5CA4E01CED1EB65B1 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C76D90825462D269B695632 /* Pods-dummy.m */; };
+		A2C5CB3D6C3847CE884C0C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D851969DAF0ADF0578AB0F6 /* Foundation.framework */; };
+		B4A150FD1C3281C5959766ED /* MAOPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FA514E9F2798665DD99082 /* MAOPanGestureRecognizer.m */; };
+		B5CB3D6009787B3563229F55 /* MAOFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7FE270BDBDF7D3D81E1CB /* MAOFlipTransition.m */; };
+		B5DE9D0F25D1E518E4650445 /* MAOFlipInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = AC589DFF54AC1A0B61570F79 /* MAOFlipInteraction.h */; };
+		D9F6A4E93C96FDC866748A85 /* MAOFlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C66E2EBB5C025555625FE6 /* MAOFlipTransition.h */; };
+		DCD6D1DBF65390D176245368 /* MAOFlipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7EAECE4620831175FEFF1D /* MAOFlipViewController.h */; };
+		E5CA3A4ADA3A812B743C0C08 /* MAOFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B980248A51B2AF9F68DDA28 /* MAOFlipViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847A6071832A12B0BA253DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA3BDC7776214AD77D737F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8968F5CE8F63D0F3F8E514D;
+			remoteInfo = "Pods-MAOFlipViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0253EC73423559D993269E38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		056C54A1DDF32B724FBD60D2 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D851969DAF0ADF0578AB0F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		25C66E2EBB5C025555625FE6 /* MAOFlipTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipTransition.h; path = MAOFlipViewController/MAOFlipTransition.h; sourceTree = "<group>"; };
+		360454E78CD2963A8CB33B4C /* MAOPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOPanGestureRecognizer.h; path = MAOFlipViewController/MAOPanGestureRecognizer.h; sourceTree = "<group>"; };
+		3D4BA5D85D6642A05D88C800 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7EAECE4620831175FEFF1D /* MAOFlipViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipViewController.h; path = MAOFlipViewController/MAOFlipViewController.h; sourceTree = "<group>"; };
+		5C76D90825462D269B695632 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		5D42113CDE827FADA7E23A5D /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		5E951DE191D19184B387153A /* Pods-MAOFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAOFlipViewController-prefix.pch"; sourceTree = "<group>"; };
+		63CC0EBB10C2B528C7D3EB81 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		66D7FE270BDBDF7D3D81E1CB /* MAOFlipTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipTransition.m; path = MAOFlipViewController/MAOFlipTransition.m; sourceTree = "<group>"; };
+		8C828B202DE148ED3BEBC700 /* libPods-MAOFlipViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAOFlipViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		907183F2FEB8C96CEB1C8FF8 /* Pods-MAOFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAOFlipViewController-dummy.m"; sourceTree = "<group>"; };
+		9AEC92906C4F5F272F11584C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9B980248A51B2AF9F68DDA28 /* MAOFlipViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipViewController.m; path = MAOFlipViewController/MAOFlipViewController.m; sourceTree = "<group>"; };
+		AC589DFF54AC1A0B61570F79 /* MAOFlipInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipInteraction.h; path = MAOFlipViewController/MAOFlipInteraction.h; sourceTree = "<group>"; };
+		B6AC95E57B378098B1D3198D /* Pods-MAOFlipViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAOFlipViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		B854FF78260D8F7B9581B1F8 /* MAOFlipInteraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipInteraction.m; path = MAOFlipViewController/MAOFlipInteraction.m; sourceTree = "<group>"; };
+		EFA39389A92D61756DDFF1E5 /* Pods-MAOFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAOFlipViewController.xcconfig"; sourceTree = "<group>"; };
+		F4FA514E9F2798665DD99082 /* MAOPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOPanGestureRecognizer.m; path = MAOFlipViewController/MAOPanGestureRecognizer.m; sourceTree = "<group>"; };
+		F586B0C42A4FFDC601CCBB43 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA8B72862DD08C11E65D7910 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8492C075ED31FE99DC0CF22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385AEDE8C04AD39EB0465E9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B807632C3143FC06E5E9DB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C5CB3D6C3847CE884C0C44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE5B41EBC9BDADD91179C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD6E58BCD537361DAFE91EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		541E27DFF1BDD6B9397C5345 /* MAOFlipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC589DFF54AC1A0B61570F79 /* MAOFlipInteraction.h */,
+				B854FF78260D8F7B9581B1F8 /* MAOFlipInteraction.m */,
+				25C66E2EBB5C025555625FE6 /* MAOFlipTransition.h */,
+				66D7FE270BDBDF7D3D81E1CB /* MAOFlipTransition.m */,
+				4E7EAECE4620831175FEFF1D /* MAOFlipViewController.h */,
+				9B980248A51B2AF9F68DDA28 /* MAOFlipViewController.m */,
+				360454E78CD2963A8CB33B4C /* MAOPanGestureRecognizer.h */,
+				F4FA514E9F2798665DD99082 /* MAOPanGestureRecognizer.m */,
+				A63C085FE8E2EE03A0EE28BC /* Support Files */,
+			);
+			path = MAOFlipViewController;
+			sourceTree = "<group>";
+		};
+		5AD6E58BCD537361DAFE91EB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D851969DAF0ADF0578AB0F6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		83A2932D3B9084D301323D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4BA5D85D6642A05D88C800 /* libPods.a */,
+				8C828B202DE148ED3BEBC700 /* libPods-MAOFlipViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA2C98FC545A000C92C4730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				056C54A1DDF32B724FBD60D2 /* Pods-acknowledgements.markdown */,
+				63CC0EBB10C2B528C7D3EB81 /* Pods-acknowledgements.plist */,
+				5C76D90825462D269B695632 /* Pods-dummy.m */,
+				5D42113CDE827FADA7E23A5D /* Pods-environment.h */,
+				0253EC73423559D993269E38 /* Pods-resources.sh */,
+				FA8B72862DD08C11E65D7910 /* Pods.debug.xcconfig */,
+				9AEC92906C4F5F272F11584C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		A63C085FE8E2EE03A0EE28BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA39389A92D61756DDFF1E5 /* Pods-MAOFlipViewController.xcconfig */,
+				B6AC95E57B378098B1D3198D /* Pods-MAOFlipViewController-Private.xcconfig */,
+				907183F2FEB8C96CEB1C8FF8 /* Pods-MAOFlipViewController-dummy.m */,
+				5E951DE191D19184B387153A /* Pods-MAOFlipViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MAOFlipViewController";
+			sourceTree = "<group>";
+		};
+		B1EE5E306761D288E8344009 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CA2C98FC545A000C92C4730 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BDB755ED2C2BBEED263DAB50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				541E27DFF1BDD6B9397C5345 /* MAOFlipViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEEB7080F60E6A0D87AFE1B8 = {
+			isa = PBXGroup;
+			children = (
+				F586B0C42A4FFDC601CCBB43 /* Podfile */,
+				3AE5B41EBC9BDADD91179C3A /* Frameworks */,
+				BDB755ED2C2BBEED263DAB50 /* Pods */,
+				83A2932D3B9084D301323D73 /* Products */,
+				B1EE5E306761D288E8344009 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		272B33555869F6269A5FCE90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DE9D0F25D1E518E4650445 /* MAOFlipInteraction.h in Headers */,
+				D9F6A4E93C96FDC866748A85 /* MAOFlipTransition.h in Headers */,
+				DCD6D1DBF65390D176245368 /* MAOFlipViewController.h in Headers */,
+				4F9FF084772BAF5E7900739A /* MAOPanGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		896C26F30A9D7B85000ABC2B /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E7D4560E0776A27C4B5BB2F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				8F6411E36EEEE02417AA8A37 /* Sources */,
+				8492C075ED31FE99DC0CF22C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995B963DA7FD103B621DF9A3 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3D4BA5D85D6642A05D88C800 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8968F5CE8F63D0F3F8E514D /* Pods-MAOFlipViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9173B8D44DC9073A3649E1 /* Build configuration list for PBXNativeTarget "Pods-MAOFlipViewController" */;
+			buildPhases = (
+				914594EB50C49DCC9C32972D /* Sources */,
+				B807632C3143FC06E5E9DB8D /* Frameworks */,
+				272B33555869F6269A5FCE90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MAOFlipViewController";
+			productName = "Pods-MAOFlipViewController";
+			productReference = 8C828B202DE148ED3BEBC700 /* libPods-MAOFlipViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA3BDC7776214AD77D737F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = B37D8EE135E3CA4ED7BF7E79 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEEB7080F60E6A0D87AFE1B8;
+			productRefGroup = 83A2932D3B9084D301323D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896C26F30A9D7B85000ABC2B /* Pods */,
+				A8968F5CE8F63D0F3F8E514D /* Pods-MAOFlipViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6411E36EEEE02417AA8A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF2B3F5CA4E01CED1EB65B1 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914594EB50C49DCC9C32972D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF7C4305803F937BE2A4903 /* MAOFlipInteraction.m in Sources */,
+				B5CB3D6009787B3563229F55 /* MAOFlipTransition.m in Sources */,
+				E5CA3A4ADA3A812B743C0C08 /* MAOFlipViewController.m in Sources */,
+				B4A150FD1C3281C5959766ED /* MAOPanGestureRecognizer.m in Sources */,
+				26D033020B642912D45455D1 /* Pods-MAOFlipViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		995B963DA7FD103B621DF9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MAOFlipViewController";
+			target = A8968F5CE8F63D0F3F8E514D /* Pods-MAOFlipViewController */;
+			targetProxy = 847A6071832A12B0BA253DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BD98AF8B7C1E4945F0F2F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AC95E57B378098B1D3198D /* Pods-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70C54CE015A41FAD59758E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C82E219FB5C2D44A1392E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62ACFE9C290A0B01238D63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AC95E57B378098B1D3198D /* Pods-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD1CDC1ECA6C4267BA967D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8B72862DD08C11E65D7910 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FEECF9B4E5E5E0D1A03D8CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEC92906C4F5F272F11584C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E7D4560E0776A27C4B5BB2F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1CDC1ECA6C4267BA967D96 /* Debug */,
+				FEECF9B4E5E5E0D1A03D8CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37D8EE135E3CA4ED7BF7E79 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C54CE015A41FAD59758E5A /* Debug */,
+				9C82E219FB5C2D44A1392E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9173B8D44DC9073A3649E1 /* Build configuration list for PBXNativeTarget "Pods-MAOFlipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD98AF8B7C1E4945F0F2F82 /* Debug */,
+				B62ACFE9C290A0B01238D63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA3BDC7776214AD77D737F2 /* Project object */;
+}

@@ -1,0 +1,6 @@
+platform :ios , '7.0'
+ pod 'MAOFlipViewController', '~> 0.0.1'
+ pod 'FaceppSDK', '~> 2.0.0'
+ pod 'PulsingHalo', '~> 0.0.1'
+ pod 'FlickerNumber', '~> 0.2.2'
+ pod 'PEPhotoCropEditor', '~> 1.3.1'
