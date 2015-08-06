@@ -10,11 +10,12 @@ import UIKit
 import MediaPlayer
 import CoreLocation
 
-class AlarmCreationViewController: UITableViewController, MPMediaPickerControllerDelegate, MapViewControllerDelegate  {
+class AlarmCreationViewController: UITableViewController, MPMediaPickerControllerDelegate  {
 
     /*
     IBOutlets
     */
+    @IBOutlet  var datePicker: UIDatePicker!
     @IBOutlet var titleLabel : UITextField?
     
     @IBOutlet var mapCell : UITableViewCell?
@@ -53,14 +54,14 @@ class AlarmCreationViewController: UITableViewController, MPMediaPickerControlle
 
     @IBAction func save(sender : AnyObject) {
         
-        if ( region == nil || mediaItem == nil || titleLabel!.text.isEmpty ) {
+        scheduleLocalNotificationWithData(indexOfObject: 1)
+        if (  mediaItem == nil || titleLabel!.text.isEmpty ) {
             //validation failed
             return
         }
         
-        
         var alarm = Alarm(title: titleLabel!.text, region: region!, media: mediaItem!)
-
+  
         
         navigationController!.presentingViewController!.dismissViewControllerAnimated(true, completion: {
             
@@ -71,6 +72,27 @@ class AlarmCreationViewController: UITableViewController, MPMediaPickerControlle
         });
     }
 
+    func scheduleLocalNotificationWithData(indexOfObject atIndex : NSInteger){
+        var localNotification = UILocalNotification ()
+//        if(!localNotification)  怎么弄啊   oc里边的过来不对
+//        {return}
+        var dateFormatter=NSDateFormatter()
+        dateFormatter.dateFormat="hh-mm -a"
+        var date=dateFormatter.dateFromString(dateFormatter .stringFromDate(datePicker.date))
+        localNotification.repeatInterval = NSCalendarUnit.CalendarCalendarUnit
+       
+        localNotification.fireDate=date;
+        localNotification.alertBody="Alarm"
+        localNotification.alertAction="Open App"
+        localNotification.hasAction=true
+        
+        NSLog("%@", date!);
+        var uidToStore=atIndex
+        var userInfo=NSDictionary(object: uidToStore, forKey: "notificationId")
+        localNotification.userInfo=userInfo as [NSObject : AnyObject]
+        NSLog("uid store in userinfo%@", localNotification.userInfo!)
+        UIApplication .sharedApplication().scheduleLocalNotification(localNotification)
+    }
     /*
     #pragma mark - UITableViewDelegate
     */
@@ -80,9 +102,9 @@ class AlarmCreationViewController: UITableViewController, MPMediaPickerControlle
         let cell = tableView.cellForRowAtIndexPath(indexPath)
         if ( cell == mediaCell ) {
             
-            let mediaPicker = MPMediaPickerController(mediaTypes: .Music)
+            let mediaPicker = MPMediaPickerController(mediaTypes: .AnyAudio)
             mediaPicker.delegate = self
-            mediaPicker.prompt = "Select any song!"
+            mediaPicker.prompt = "请选择一首曲"
             mediaPicker.allowsPickingMultipleItems = false
             presentViewController(mediaPicker, animated: true, completion: {})
             
@@ -90,27 +112,7 @@ class AlarmCreationViewController: UITableViewController, MPMediaPickerControlle
         
     }
     
-    // #pragma mark - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
-
-        if ( segue!.identifier == "map" ) {
-            var mapVC = segue!.destinationViewController as! MapViewController;
-            mapVC.delegate = self;
-        }
-    }
-    
-    /*
-    MapViewControllerDelegate
-    */
-    func returnedRegion(region: CLCircularRegion) {
-        
-        
-        self.region = region
-        mapCellLabel!.text = "Region Selected"
-        self.navigationController!.popViewControllerAnimated(true)
-    }
+  
 
     
     /*

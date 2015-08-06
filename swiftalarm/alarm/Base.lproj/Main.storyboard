@@ -281,48 +281,22 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Location" id="FTf-mp-S6h">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="09e-vV-mZ3">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="09e-vV-mZ3">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="09e-vV-mZ3" id="0dC-c1-KZk">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Touch here to select map region" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCB-Xv-rgn">
-                                                    <rect key="frame" x="20" y="20" width="440" height="59"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="WcS-tf-4yJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="93"/>
+                                                    <date key="date" timeIntervalSinceReferenceDate="459751711.80643302">
+                                                        <!--2015-07-28 04:48:31 +0000-->
+                                                    </date>
+                                                </datePicker>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="XCB-Xv-rgn" secondAttribute="bottom" constant="20" id="Eiy-yl-PgE"/>
-                                                <constraint firstAttribute="bottom" secondItem="XCB-Xv-rgn" secondAttribute="bottom" constant="20" id="Pyx-xe-Kv9"/>
-                                                <constraint firstItem="XCB-Xv-rgn" firstAttribute="top" secondItem="0dC-c1-KZk" secondAttribute="top" constant="20" id="TEk-zN-aXg"/>
-                                                <constraint firstAttribute="trailing" secondItem="XCB-Xv-rgn" secondAttribute="trailing" constant="20" id="Tey-P6-3q1"/>
-                                                <constraint firstItem="XCB-Xv-rgn" firstAttribute="top" secondItem="0dC-c1-KZk" secondAttribute="top" constant="20" id="XDg-7G-tN5"/>
-                                                <constraint firstAttribute="trailing" secondItem="XCB-Xv-rgn" secondAttribute="trailing" constant="20" id="slP-rq-Rkt"/>
-                                                <constraint firstItem="XCB-Xv-rgn" firstAttribute="leading" secondItem="0dC-c1-KZk" secondAttribute="leading" constant="20" id="x2L-T3-LiP"/>
-                                                <constraint firstItem="XCB-Xv-rgn" firstAttribute="leading" secondItem="0dC-c1-KZk" secondAttribute="leading" constant="20" id="zb5-H5-6HJ"/>
+                                                <constraint firstAttribute="centerY" secondItem="WcS-tf-4yJ" secondAttribute="centerY" id="66R-0u-rhw"/>
+                                                <constraint firstAttribute="centerX" secondItem="WcS-tf-4yJ" secondAttribute="centerX" id="O76-qX-W32"/>
                                             </constraints>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="Eiy-yl-PgE"/>
-                                                    <exclude reference="TEk-zN-aXg"/>
-                                                    <exclude reference="slP-rq-Rkt"/>
-                                                    <exclude reference="x2L-T3-LiP"/>
-                                                </mask>
-                                            </variation>
-                                            <variation key="widthClass=compact">
-                                                <mask key="subviews">
-                                                    <include reference="XCB-Xv-rgn"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <include reference="Eiy-yl-PgE"/>
-                                                    <include reference="TEk-zN-aXg"/>
-                                                    <include reference="slP-rq-Rkt"/>
-                                                    <include reference="x2L-T3-LiP"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="rNe-Xn-idq" kind="show" identifier="map" id="94I-p0-x5w"/>
@@ -337,7 +311,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g7S-P6-rck" id="qAF-rE-KiE">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Touch here to select media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG0-4S-Jl4">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="选择音乐" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG0-4S-Jl4">
                                                     <rect key="frame" x="20" y="20" width="440" height="60"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -374,20 +348,20 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="ddB-gB-J1B"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Title" id="sij-Zb-Mf5">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="KLT-ZC-JQl">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="KLT-ZC-JQl">
                             <connections>
                                 <action selector="cancel:" destination="8Mf-wW-GvP" id="EIZ-S0-gtc"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="Iwf-lO-8qN">
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="Iwf-lO-8qN">
                             <connections>
                                 <action selector="save:" destination="8Mf-wW-GvP" id="BSS-oF-rZs"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="datePicker" destination="WcS-tf-4yJ" id="bRs-eg-Kah"/>
                         <outlet property="mapCell" destination="09e-vV-mZ3" id="AMo-GH-WBZ"/>
-                        <outlet property="mapCellLabel" destination="XCB-Xv-rgn" id="9hs-u9-63v"/>
                         <outlet property="mediaCell" destination="g7S-P6-rck" id="why-9p-e5B"/>
                         <outlet property="mediaImageView" destination="QpJ-kb-j83" id="iqU-py-FWa"/>
                         <outlet property="titleLabel" destination="huQ-7d-F2P" id="ayz-Iz-wXG"/>

@@ -19,14 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     var masterViewController : MasterViewController!
 
      func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
         locationManager.delegate = self;
-        
         if ( ios8() ) {
             locationManager.requestAlwaysAuthorization()
-       
         }
-        
         //get the master view controller
         let nav = application.windows[0].rootViewController as! UINavigationController
         masterViewController = nav.viewControllers[0] as! MasterViewController
